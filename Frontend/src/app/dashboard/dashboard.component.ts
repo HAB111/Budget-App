@@ -18,7 +18,7 @@ import { DOCUMENT } from '@angular/common';
 export class DashboardComponent implements OnInit {
   @ViewChild('tabs') tabGroup!: MatTabGroup;
 
-  // Goals
+  // Goals Goals
   goals?: Goal[];
   goal: Goal = new Goal();
   incomeCard = false;
