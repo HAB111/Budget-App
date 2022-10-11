@@ -15,7 +15,7 @@ export class UpdateIncomeComponent implements OnInit {
   id! : number;
 
   constructor(private incomeService: IncomeService, private router: Router, private route: ActivatedRoute) { }
-//life cycle hooks
+//life cycle hooks 123
   ngOnInit(): void {
     this.id = this.route.snapshot.params['id'];
 
